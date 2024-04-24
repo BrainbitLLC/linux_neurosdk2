@@ -1,3 +1,5 @@
+# Overview
+
 Library compiled for AstraLinux v2.12.46, kernel v5.15.0. Arch: x86_64
 
 ```
@@ -39,9 +41,19 @@ libz.so.1
 
 We put the library dependencies next to the library itself, if you are using a system different from ours I suggest you link them to your project too.
 
-Download from [GitHub](https://github.com/BrainbitLLC/linux_neurosdk2) and add .so to your project by your preferred way.
+# Install
 
-Latest version: `1.0.6.22`
+First way:
+Download library, dependencies and headers from folder `raw_lib` and add .so to your project by your preferred way.
+
+Sesond way:
+Download .deb package from folder `package` and install with `apt`:
+
+```
+sudo apt install libneurosdk2.deb
+```
+
+Latest version: `1.0.6.29`
 
 [Samples for BrainBit](https://gitlab.com/neurosdk2/neurosamples/-/tree/main/cpp/brainbit?ref_type=heads)
 [Samples for Callibri](https://gitlab.com/neurosdk2/neurosamples/-/tree/main/cpp/callibri?ref_type=heads)
